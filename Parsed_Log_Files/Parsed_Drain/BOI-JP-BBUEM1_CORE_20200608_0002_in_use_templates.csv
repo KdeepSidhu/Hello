@@ -1,0 +1,482 @@
+EventId,EventTemplate,Occurrences
+61c07f7d,Found Public API<*>,1
+3a100ee9,Public API<*>,1
+1ad8b3a2,Root WebApplicationContext: initialization started,1
+28410e9c,Refreshing Root WebApplicationContext: startup date [Mon Jun 08 09:35:16 IDT 2020]; root of context hierarchy,1
+a27de3e5,Loading XML bean definitions from ServletContext resource [/WEB-INF/core-application.xml],1
+41d20283,Loading XML bean definitions from URL <*>,181
+9bbfcfe7,Overriding bean definition for bean <*> with a different definition: replacing [Generic bean: class <*> scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL <*> with [Generic bean: class <*> scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL <*>,5
+86c2512e,parsing namspace-based config for workflow: <*>,11
+f5529e98,You are running with Spring Security Core 4.2.4.RELEASE,1
+60bb8f9f,Spring Security 'config' module version is 4.2.4.RELEASE,1
+9abb6fb5,Checking sorted filter chain:<*>,1
+7bf93218,Using bean 'expressionHandler' as method ExpressionHandler implementation,1
+6a614303,Overriding bean definition for bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor' with a different definition: replacing [Generic bean: class [org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.ProxyAsyncConfiguration; factoryMethodName=asyncAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/scheduling/annotation/ProxyAsyncConfiguration.class]],1
+cf448938,Loading the preverify context,1
+6e888e9d,Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@587f17cb: startup date [Mon Jun 08 09:35:37 IDT 2020]; root of context hierarchy,1
+64e9c1ef,initializing EMS states library - enter,2
+c0453726,Properties file C:\Program Files\BlackBerry\UEM\common-settings\ems.properties not found; EMS will not be initialized.,2
+75a71f82,MLog clients using slf4j logging.,1
+b8f80b0b,"Custom c3p0 settings: jdbcurl -> jdbc:sqlserver://boi-jp-sql17.ad.boi.gov.il:1433;databaseName=UEM;integratedSecurity=true;applicationName=BES-CORE-preVerify;, minPoolSize -> 1, maxPoolSize -> 10, initialPoolSize -> 1, numHelperThreads -> 100, maxStatementsPerConnection -> 0, deferredCloseThreads -> 1, idleConnectionTestPeriod -> 3000, loginTimeout -> 10, checkoutTimeout -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 600, preferredTestQuery -> null, testConnectionOnCheckout -> false, acquireIncrement -> 1, connectionCustomizerClassName -> null, unreturnedConnectionTimeout -> 0, debugUnreturnedConnectionStackTraces -> false, applicationName -> BES-CORE-preVerify, dataSourceName -> BES-CORE-preVerify",1
+11bb8b4b,DB Environment: Vendor = <*> Version = <*> Driver = <*>,2
+dd35362b,CryptoSecureRandom - scheduleReseed at interval:86400000,2
+80b968d1,reseeding CryptoSecureRandom,2
+bf174b78,Value found enabled for mdm.admin.auditing.enabled.,1
+b3f74ecf,Closing org.springframework.context.support.ClassPathXmlApplicationContext@587f17cb: startup date [Mon Jun 08 09:35:37 IDT 2020]; root of context hierarchy,1
+f627860a,"MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=2utapkaa14org901wunoml|43d921d3 unregistered.",1
+41b9c9c9,Loading properties into the PropertyPlaceHolderConfigurer,4
+4eac5fb4,Bean <*> of type <*> is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),42
+61018040,Bean '(inner <*> of type <*> is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying),4
+c640a658,"Custom c3p0 settings: jdbcurl -> jdbc:sqlserver://boi-jp-sql17.ad.boi.gov.il:1433;databaseName=UEM;integratedSecurity=true;applicationName=BES-CORE;, minPoolSize -> 100, maxPoolSize -> 300, initialPoolSize -> 100, numHelperThreads -> 100, maxStatementsPerConnection -> 200, deferredCloseThreads -> 1, idleConnectionTestPeriod -> 3000, loginTimeout -> 10, checkoutTimeout -> 11000, maxIdleTime -> 3000, maxIdleTimeExcessConnections -> 1800, preferredTestQuery -> SELECT 1, testConnectionOnCheckout -> true, acquireIncrement -> 3, connectionCustomizerClassName -> com.rim.platform.mdm.dal.utils.ConnectionCustomizer, unreturnedConnectionTimeout -> 0, debugUnreturnedConnectionStackTraces -> false, applicationName -> null, dataSourceName -> BES-CORE",1
+65eb3b3e,Building JPA container EntityManagerFactory for persistence unit 'application',1
+cade56ba,HHH000204: Processing PersistenceUnitInfo [,1
+b19c989a,HHH000412: Hibernate Core <*>,1
+253e5470,HHH000206: hibernate.properties not found,1
+8d28a3bc,HCANN000001: Hibernate Commons Annotations <*>,1
+ab6fc282,HHH000400: Using dialect: com.rim.platform.mdm.dal.utils.SqlServerCustomDialect,1
+8e25e0b9,Envers integration enabled? : true,1
+b3d05b44,Registering custom Hibernate data types,1
+ac35fee7,HHH000270: Type registration [java.util.Date] overrides previous : org.hibernate.type.TimestampType@5cfba05f,1
+a7dad40b,HV000001: Hibernate Validator 5.4.3.Final,1
+3ef3e437,HHH000397: Using ASTQueryTranslatorFactory,1
+33203f5b,Initialized JPA EntityManagerFactory for persistence unit 'application',1
+3340d455,Attempting to load the database encryption key...,1
+b9906398,Unable to proxy interface-implementing method [public final <*> <*> because it is marked as final: Consider using interface-based JDK proxies instead!,6
+abc484d8,Final method [public final <*> <*> cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.,8
+e7da547c,CORE Version: 8.46.2,1
+fe13cf8f,The CORE service has been registered successfully.,1
+71843862,Current path: C:\Program Files\BlackBerry\UEM\Core\tomcat-core\bin\.,1
+5a9f2ae7,Service <*> type<*>,6
+9238095d,Loading configuration for interface <*>,5
+b7003462,Boot completed in 187 ms,1
+17450bcd,"Using proxy settings: proxyEnabled=true, proxyConfigs=[<*>]",2
+3b40bfb4,"JavaHomePathResolver(): java.home=C:\Program Files\AdoptOpenJDK\jre-<*>, JAVA_HOME=null, file.separator=\",2
+91faea6b,initServiceTypesConfigMap() - no group definitions are provided,3
+9f2d31fe,ServerGroupAndServiceTypeHelper() - serviceTypes:[MDM],1
+40bad080,"TunnelIpEndpoint: host=localhost, <*> <*> <*> keyAccessInfo=null, tlsParameters=null, tlsServerPolicy=null, <*> tenantId=null, <*>",39
+829c5b6c,"Constructed the security context: SecurityContextFactory: [Provider=SunJSSE, Algorithm=SunX509, SslContextProtocol=TLS, TlsParams=[TlsParamters=[TlsProtocols=[TLSv1, TLSv1.1, TLSv1.2], TlsCiphers=[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA]]]",1
+8bde3c83,AuditlogChangeListener postConstruct,1
+dd5325b1,AuditlogChangeListener Adding writer to audit writer map: class <*>,62
+f17c9da2,"Constructed the security context: SecurityContextFactory: [Provider=SunJSSE, Algorithm=SunX509, SslContextProtocol=TLS, TlsParams=[TlsParamters=[TlsProtocols=[TLSv1, TLSv1.1, TLSv1.2], TlsCiphers=[TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA256]]]",1
+3129ad77,ChannelBasedTcpProxyServiceAdapter.init() - successfully bound for <*> after <*> serverChannel:[id: <*> <*>,3
+2db1f825,"init(): set up directProxyClientState state for mode=UNIFIED_ALWAYS_DIRECT, localServiceName=direct, <*> enabled=true",2
+ac6fe647,KRBSSO: found one tenant for SSO initialization [<*>],1
+63611aab,Clearing all AD domain-to-forest caches,1
+0ad619a3,"Initializing domain-to-forest maps for tenant [<*>], AD Forest Connection with domain [ad.boi.gov.il].",1
+242981e9,VSJ discovered <*> domain controller [boi-jp-dc1.ad.boi.gov.il],2
+9fc51a80,"Unable to connect to GC, [adsrv01.ad.boi.gov.il]. Will discover another GC.",1
+a5c8a294,setting java.security.auth.login.config system property to the path C:\Program Files\BlackBerry\UEM\Core\tomcat-core\temp\besng7816003674306852918auth.conf,1
+13128b08,"Attempting Kerberos authentication for <*> realm:AD.BOI.GOV.IL, KDC:BOI-JP-DC1.AD.BOI.GOV.IL",304
+a494d572,initializeForestDomainCacheForAllTenants: successfully initialzed the cache,1
+d513c4b2,starting <*>,57
+7f71fdff,Scheduler core version for this UoS is 8046002,1
+d7188900,[DEPDeviceAsyncService] starting...,1
+e376befe,Got countries provider: <*>,2
+bca11cb2,Got provider: <*>,4
+b1e167d7,PostUpgradeStartupInitializer::<*>,1
+15498d4d,"createSSLSocketFactory(): Creating BcpTlsClientSocketFactory, tenantId=null, <*> correlationId=<*>",19
+b0cc27af,"createPlainSocketFactory(): Creating BcpPlainClientSocketFactory, tenantId=null, <*> correlationId=<*>",19
+64e24d7c,ExecutionService added a listener,14
+5416a54c,[GcAppsPeriodicSync] starting...,1
+763ab863,"[GcAppsPeriodicSync] skipped, the handler is already registered for Good apps periodic sync",1
+6441bf69,Processing defaults as on prem deployment as feature.good.cmp.hosted is not enabled,1
+8e193b4c,Final method <*> final <*> <*> throws <*> cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.,4
+90a1588b,<*> initialized,2
+84368357,"Type converters loaded (core: 194, classpath: 12)",1
+c211acdc,Apache Camel 2.21.1 (CamelContext: epsCamel) is starting,1
+913a38dc,JMX is enabled,1
+0d11f6a9,StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at <*>,1
+f4e4dd93,Endpoint seda://events?concurrentConsumers=2&multipleConsumers=true is using shared queue: seda://events with size: 2147483647,2
+a6b86822,Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@378e6027,5
+5133284d,Skipping starting of route <*> as its configured with autoStartup=false,10
+af6812af,Route: <*> started and consuming from: <*>,4
+4316432d,"Total 7 routes, of which 2 are started",1
+9d19bf68,Apache Camel 2.21.1 (CamelContext: epsCamel) started in 1.610 seconds,1
+a2d67011,RECONCILIATION BATCH:<*>,216
+7edc3df7,"ReconciliationSingleReadyEndpointActionNotifyActivity RECONCILIATION: [ notificationTTL = 86400, notificationRetryCount = 0]",2
+f7dbd0a5,In init for WorkflowFramework,4
+267f0bfe,Added bean <*> to the map from the init,72
+0a902b2f,Starting <*>,7
+9c023137,[UnseenAppsPeriodicNotificationScheduler] Starting...UnseenAppsPeriodicNotificationScheduler,1
+33960dce,<*> initialization is successful,7
+88d5a122,E2CHttpClientFactory: Initialized CA certs with 2 certificates,1
+daa80b83,Initializing Bb2faMdsPushClient,1
+1354946d,BB2FA for BlackBerry<*>,3
+032812fa,Certificate Validator <*> <*>,3
+55e047e0,"ECC Cert Chain evaluator initialized, trusted certs size 2",1
+08a8bb94,RSA Cert Chain evaluator not initialized,1
+3f8e8d16,Bb2faControllerBDMI deviceValidatorHandler initialization is successful,2
+e09efd42,<*> initialization for <*> Channel,2
+38a4800d,Initializing ExecutorService <*>,4
+9266daea,ClusterUpgradeMonitor: Starting <*>,2
+e44d99ce,ClusterUpgradeMonitor: Cluster upgrade monitor <*> is <*> <*> no need to schedule monitor.,2
+c94dca14,uoSServerMonitor is disabled - skipping creation of the scheduler bean,1
+05cc321f,Schedule Delete devices with expired unmanage/wipe commands,1
+ed89761c,enable(): <*>,2
+d6897152,VALVE - <*> Trickle Job thread,2
+219e6dad,"VALVE - Old config values - [maxBufferSize: 0, maxCountAtFullSpeed: 0, trickleBufferSize: 0, delayInSeconds: 0]",1
+68908a80,"New max permit size: 24, available permits: 24",1
+e6f7fe94,"VALVE - New config values - [maxBufferSize: 16384, maxCountAtFullSpeed: 24, trickleBufferSize: 128, delayInSeconds: 2, changedFlag: true]",1
+d91e19b0,Starting Syscon monitor.,1
+6bb11061,Loading dnaBinary module: <*> version: <*>,5
+1338ccc1,Validating and loading DNA Master Schema.,1
+071adb94,Schema updated to date Wed Jan 29 15:28:38 IST 2020,1
+c90475e0,skipping platform policy <*>,51
+9a78d0c4,There are no permissions defined for policy category:com.blackberry.snapin.sis.common.entity.SISPolicyProfile,1
+e6435443,Server name is Boi-JP-BBUEM1.ad.boi.gov.il,1
+79cc8dd4,-|- [<*>] - INFO Exchange[<*>,54
+12ebe0d6,Adding authorization provider port mapping for client-cert -> %tomcat.ipc.<*>,1
+400b5171,"Adding port, auth provider: client-cert, port: %tomcat.ipc.<*>",1
+8b3c5845,Configured EventingServiceHelper for security auditing.,1
+e5c77352,checking if there is already an scheduler event for periodicDeviceEventReportingService,1
+7d123ca0,existing scheduler event found for periodicDeviceEventReportingService. Skipping scheduling...,1
+d88ad069,"deviceActionEndpointEnrollmentStateFeatureAutoEnablementService feature: feature.device.action.endpoint.enrollment.state has been enabled, no further process required",1
+8aa79bb1,"appleMdmDeviceInfoExtFeatureAutoEnablementService feature: feature.ios.device.info.ext has been enabled, no further process required",1
+1ca4cfde,userEffectiveSoftwareConfigFeatureAutoEnablementService feature.user.effective.software.config.data.auto.enablement hasn been enabled,1
+71a4b63b,"userEffectiveSoftwareConfigFeatureAutoEnablementService feature: feature.user.effective.software.config.data.enabled has been enabled, no further process required",1
+aef57d19,"appleMdmCommandTrackingFeatureAutoEnablementService feature: feature.ios.command.tracking has been enabled, no further process required",1
+16ab15d9,Enhanced Auditing disabled not registering HibernateEventListeners.,1
+1923529e,"SecurityAuditSyslogExport: syslog export not enabled, no scheduler queued.",1
+7833c7db,pollInterval:86400,1
+30dab30a,deviceGroupFeatureAutoEnablementService feature.devicegroup.auto.enablement hasn been enabled,1
+97a3e7a1,"deviceGroupFeatureAutoEnablementService feature: feature.devicegroup.device.data.enabled has been enabled, no further process required",1
+c4c7de5f,creating SSLHostConfig for connector on port <*>,14
+1f70904d,looked up cert key store <*> and setting it for port <*>,14
+da4fc7b3,finished setting up sslHostConfig for port,14
+d6408df2,finished connector creation for port,18
+685b0d86,Added Core connector <*> on <*>,18
+91be5ef0,UosServiceOsidRegistrationService: skipping dynamic service osid registration,1
+10b7c44f,Netty handler to APNS for mdm - connection Netty client Bootstrap options returns <*>,1
+99c29175,SecurityProviderManager: delegating security provider setup to core,1
+baad23b2,about to create apns<*>,1
+f61efb07,created apns<*>,1
+0b657d58,Created certificate request:<certificateRequest><publicKey><algorithm>RSA</algorithm><key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyp6qviv0+2DsdUJlUGkuXPaLrr65bSwvIcoetSrlNk1<*>Dl4YOdp8PuvaAQOwvjxTCe6r8IIRFFRjJbvHUryKUzR8LryFt0CDpanNa77pMg5G0rtRd2ujLpvP3yjev1260bkioQCF2okTPPHXBEWxC/JJmJaVSbgqNbB/nU7WR8IbJFP1/UYHKvPLdGWEFXaMZCpSQARCQLcv1c3pXLuksd+gm043hJw+cVQxLfxvDM/cQ9YrJwuXV5PUce<*>GZ7cYdp1AFSmrPptvgCA1XBf0nvAd21y3yaAyfe1mTauPG/ZVRLlyhzvT9puZwRxgujtDWzEJ5aoT4v/6LF+Jy40oElA/dlEeWi<*>BTKa67uLXGyomNm8/iELc0Zp1C4DK/Wu4J1p5AmhL4HAVIQ66xP9bqgD64IcEPDobOJeR5LYMc0bSsgUknnDbWT/D8qc330x+M25O5YMNxCH4mGcCgHheQ7VU+rKaNvbJ7csvASmtZhAMPBDqYiyvVQrKMwNJFYtNUzU9LtFJonEZ91u624kwBu/7rGQqFfxhdC9XXXTTlCGEn8PCPFhugNnOdCnhlRUbonOFB+IlwiepQ1LZfprGGhMPIJ8GdobbmegTTe8Ewv9Yqoq+81AW4uNpEYu+o4YLy3TKig0OWgRKjD0HdJPeLFqM/38wQ6M7idWQsdmECAwEAAQ==</key></publicKey><subject><Country>CA</Country><Organization>BlackBerry Limited</Organization><CommonName>BlackBerry Root MDM Verification</CommonName></subject></certificateRequest>,1
+ec100eef,Setting <*> for <*>,2
+44e3e45e,schedule(): SystemGeneratedGlobalProfilesService.,1
+fa41bebb,Initialized <*>,4
+ea5c2148,setting transaction isolation level set to READ_COMMITTED,1
+8e0e9278,Creating filter chain:<*>,3
+da51ef8c,Adding mapping of URI regex ^/apple-touch-icon.*.png to return <*>,1
+ffae0dd7,configured to drop mismatching paths = true,1
+d7e2bf24,Adding namespace authorization for <*> -> <*>,23
+ef3fd66c,Encountered event listener [com.rim.platform.mdm.snapin.manager.lifecycle.SnapinDBStatusChangeService] for post-commit event <*> which did not implement the corresponding extended listener contract <*>,2
+b30b465d,Registering beans for JMX exposure on startup,2
+30bd2006,Bean with name <*> has been autodetected for JMX exposure,235
+8f677c30,Located managed bean <*> registering with JMX server as MBean <*>,234
+88d84c2e,Bean with key <*> has been registered as an MBean but has no exposed attributes or operations,4
+6b8a1681,"Located MBean 'jmxEventBroadcaster': registering with JMX server as MBean [BES-NG:comp=Core,subcomp_0=Services,name=EventingService]",1
+7b984cbe,RESTEASY002227: MediaType <*> on <*> lacks charset. Consider setting charset or turning on context parameter resteasy.add.charset,194
+cec12db8,NgService: all containers scheduled to start,1
+3d9317b3,NgService: init <*>,3
+111c5d86,Refreshing <*> startup date [Mon Jun 08 <*> IDT 2020]; parent: Root WebApplicationContext,11
+be6f5885,Unable to proxy interface-implementing method [public final java.lang.Object org.springframework.beans.factory.config.AbstractFactoryBean.getObject() throws java.lang.Exception] because it is marked as final: Consider using interface-based JDK proxies instead!,1
+65a05bdf,NgService: init done <*>,3
+0c561cf8,start invoked for DeadServerNotificationsUpdateService,1
+748579d7,NgService: all containers started,1
+ae373499,Starting to graceful shutdown 1 routes (timeout 300 seconds),7
+b5a71c42,"-|- [<*>] - INFO Route: <*> shutdown complete, was consuming from: <*>",7
+7064fbc1,Graceful shutdown of 1 routes completed in 0 seconds,7
+38bd51f4,"Route: <*> is stopped, was consuming from: <*>",7
+fe0376bb,"Route: <*> is shutdown and removed, was consuming from: <*>",7
+3ff00427,No TaskScheduler/ScheduledExecutorService bean found for scheduled processing,1
+3476aaec,handleAppContextInitEvent(): starting beans after receiving contextRefreshedEvent: org.springframework.context.event.ContextRefreshedEvent[source=Root WebApplicationContext: startup date [Mon Jun 08 09:35:16 IDT 2020]; root of context hierarchy],1
+22cd0c62,startBeansInOrder(): starting bean <*>,2
+1eb2b043,start(): ChannelPinger started.,1
+2e864db6,createApplicationEndpoints() - creating ApplicationEndpoints for serviceTypes: [SHARED],1
+9efb63b4,"createApplicationEndpoint() - created for serviceType: SHARED, serverGroup: null",1
+9a16f759,BcpConnectionInfoProvider.applicationEndpointsCreated() - adding IClientEndpointEventReceiver: com.rim.platform.mdm.core.service.ha.BcpConnectEventNotifier@755c2f18,1
+b5b938a1,[SHARED] - start() - starting ApplicantionEndpoint for service.,1
+ab9bbb6b,[SHARED] - initiateInitialConnection(): scheduling InitialConnectJob,1
+0f8e633a,TcpProxyServer.startService() - starting service <*> = <*>,15
+7222bce3,[SHARED] - addLocalService(): added <*> to applicationEndpoint in serverGroup: null,15
+1c88eca3,TenantRegistrantRepository.addTenantToCache(): Adding tenantId=<*>,1
+bb7b1793,[SHARED] - registerServiceName(): skipping <*> nameSpace=tcpproxy as tenant is not currently registered.,60
+ca8c1f9f,TcpProxyServer.startService() - skipping service since it is not enabled. <*> = <*>,2
+bf05dc50,"SecurityContextFactory: sslContext provider=SunJSSE version 1.8, protocol=TLS",6
+cf43ecfd,"Registering dynamically settable config properties: [com.rim.platform.mdm.core.origin.bdmiEndpointHost, com.rim.platform.mdm.core.origin.bdmiEndpointPort, com.rim.platform.mdm.core.origin.bdmi_bcEndpointHost, com.rim.platform.mdm.core.origin.bdmi_bcEndpointPort, com.rim.platform.mdm.core.origin.enrolEndpointHost, com.rim.platform.mdm.core.origin.enrolEndpointPort, com.rim.platform.mdm.core.origin.enrol_plaintextEndpointHost, com.rim.platform.mdm.core.origin.enrol_plaintextEndpointPort, com.rim.platform.mdm.core.origin.amdmEndpointHost, com.rim.platform.mdm.core.origin.amdmEndpointPort, com.rim.platform.mdm.core.origin.mdmEndpointHost, com.rim.platform.mdm.core.origin.mdmEndpointPort, com.rim.platform.mdm.core.origin.enrol_zedEndpointHost, com.rim.platform.mdm.core.origin.enrol_zedEndpointPort, com.rim.platform.mdm.core.origin.ecEndpointHost, com.rim.platform.mdm.core.origin.ecEndpointPort, com.rim.platform.mdm.core.origin.e2cEndpointHost, com.rim.platform.mdm.core.origin.e2cEndpointPort]",1
+bd8ee709,start(): <*>,2
+15a3a563,Scheduling security event audit purge of type: securityAuditPurgeDailyService.,1
+a9c45f68,NgService marked as <*>,3
+c702cce1,"[SHARED] - adapterNodeRegReq=node/p-bes-<*>, adapterNodeRegistrationData=<*>,""usingProxy"":true,""serverGroup"":null,""serviceType"":""SHARED"",""otherBcpHosts"":<*>,""opaque"":null}",1
+8359130b,AfW:AfWStoreLayoutGenerator Starting afwPluginServiceContext:afWStoreLayoutGenerator,1
+4fe3005a,"AfW:AfWStoreLayoutGenerator Global scheduler[afwPluginServiceContext:afWStoreLayoutGenerator] with Id [11092] found already, not creating",1
+56552944,[SHARED] - InitialConnectJob.run(): scheduling of ConnectJob <*>,5
+4099972c,"pollIntervalNumber = 900, maxRetriesNumber = 10, maxResultsNumber = 200",1
+5406aab5,Added bean <*> to the map from the core starting event,6
+339d0daf,SimpleTcpClientConnector: successfully connected to [id: <*> <*> - R:/<*>:3102],5
+3e66c68b,Successful async operation <*> time <*> ms,15
+1cb1f16e,"DynamicsPurgeContainerService start scheduling task pollingInterval = 86400 , tenantId= 1",1
+207bc5b5,About to connect to Actual BCP Host/port <*> through Socks proxy <*>,5
+9a0c0b21,"SecurityContextFactory: sslEngine protocols=[TLSv1, TLSv1.1, TLSv1.2], ciphers=[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA]",5
+ead03301,"TlsHandshaker: TLS successful with server; channel:[id: <*> <*> - R:/<*>:3102], serverIpEndpoint:<*>",5
+eec9db74,"[SHARED] - Successfully established connection with BCP Server <*> using proxy (server=<*>, type=SOCK<*>_NOAUTH); time <*> ms for connection ConnectionInfo <*> [SHARED] [channelRef=null, isConnectPending=true, closePending=false, connectFailureStreak=0, lastConnectAttemptedAt=Mon Jun 08 <*> IDT 2020, lastConnectedAt=null, lastDisconnectedAt=null, exceptionInLastConnectAttempt=null, remoteNodeId=null]",5
+6a781c91,started DynamicsService CoreStartedEvent,1
+ffd811c9,Starting Core Dynamics ...,1
+c8b7db25,Dynamics Kerberos service - starting ...,1
+15334da0,handleCmpCertificateUpdate,1
+9bb990fa,java.security.krb5.realm = AD.BOI.GOV.IL,1
+125b8130,java.security.krb5.kdcm = ad.boi.gov.il,1
+7beeef1d,<*> = true,2
+99f18d21,principalName = bb_kerberos_svc,1
+e3f458ee,keyTabFile = c:/keytab/kcd.keytab,1
+b5e55d7d,Subject provided credential item that is not an instance of KerberosTicket,1
+dc00a711,Starting server in Secure Mode,1
+70bf200e,[DEPTurnFeatureOnService] turning ON the feature to support Multiple accounts in Apple DEP,1
+6e87b97a,[ConsolidateAppStoreVariantsService] specific onVersionChanged to 1.0.0,1
+a2d2fd46,[ConsolidateAppStoreVariantsService] Feature is already enabled OR changed version did not match. No action required,1
+da39c859,Received CoreStartedEvent. Calling SecretInjector to cleanup resources.,1
+17a32573,UosServiceOsidRegistrationService: starting preconfigured endpoints enablement check,1
+7e78c3c8,verifying snapin lifecycle: <*>,9
+d65d4f9a,handleSnapinStatus: <*> <*> 1,9
+c5423df3,Root WebApplicationContext: initialization completed in 231747 ms,1
+e13debe0,Container management server Started...Listening on port 17317,1
+1953f2e5,FrameworkServlet <*> initialization started,5
+e23d2714,Refreshing WebApplicationContext for namespace <*> startup date [Mon Jun 08 <*> IDT 2020]; parent: Root WebApplicationContext,5
+c3abfff6,Loading XML bean definitions from class path resource <*>,5
+b49f92bf,"[SHARED] - Registration request submitted successfully; <*> remoteNodeId=null, <*>",15
+af3fae3b,[SHARED] - submitRegistrations() - submiting registration regularly.,5
+719d6689,"[SHARED] - getLocalServices(): localServices:[enrol, <*>c, bdmi-bc, cmp, enrol-zed, enrol-plaintext, scep, bdmi, mdm, e2c, amdm, i2c, ctp, cgcp, gdas]",5
+7ac83fd1,"[SHARED] - createTenantRegistrationRequest(): creating tenant registration for with serviceNames:[[enrol, <*>c, bdmi-bc, cmp, enrol-zed, enrol-plaintext, scep, bdmi, mdm, e2c, amdm, i2c, ctp, cgcp, gdas]]",5
+f3fd2c76,[SHARED] - <*> - <*>,85
+f4cdebc5,"[SHARED] - Received TenantRegistrationResponse: tenantId=<*>, <*> responseCode=NEW_TOKEN_ISSUED, responseMessage=Tenant Registration succeeded; new token issued: aaaWsClientLib's authenticate succeeded, source=null, info=remoteNode: <*> localAddress: <*>",2
+f43564a6,"updateAuthToken() - first token received for tenant: <*>, submit RegistrationCheckJob.",1
+8af227f5,"fireTenantRegistered: tenantName=<*>, tenantSubscriber type<*>",15
+1ce65e38,[SHARED] - tenantRegistered(): tenant:<*> is registered on connection id: <*>,5
+4bf92eb9,"Mapped ""<*>/<*>],methods=[GET]}"" onto public java.lang.String com.rim.platform.mdm.core.plugin.ios.html.IosRedirectIndexController.getEnroll(java.lang.String,java.lang.String,javax.servlet.<*>",1
+70947246,"[SHARED] - Received TenantRegistrationResponse: tenantId=<*>, <*> responseCode=TOKEN_VALIDATED, responseMessage=Tenant Registration succeeded with the supplied token, source=null, info=remoteNode: <*> localAddress: <*>",3
+e5615995,Looking for @ControllerAdvice: WebApplicationContext for namespace 'iosRedirect-servlet': startup date [Mon Jun 08 09:39:08 IDT 2020]; parent: Root WebApplicationContext,2
+6e9df064,Mapped URL path <*> onto handler <*>,2
+2bc74400,FrameworkServlet <*> initialization completed in <*> ms,5
+d84772ed,Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol,4
+f3762550,"Supporting [WS-Addressing August 2004, WS-Addressing 1.0]",2
+61325e09,Loading policy configuration from from 'class path resource [META-INF/wss-server-config.xml]',2
+4d2b3870,Validating using class path resource <*>,2
+28b8f81f,The Tomcat startup command has been received,1
+d60dd4b7,start listening for jobs SchedulerService,1
+37380d23,Snapin load <*>,2
+dfdefeb9,"Snapin dicovery, server Id 8",1
+cae5a9d8,Looking for snapins at C:\Program Files\BlackBerry\UEM\.\ext,1
+0bfe397e,"Snapin discovery, found private snapin dependency C:\Program <*>",18
+3d683eb9,Snapin manager: no XML manifest found at C:\Program <*>,3
+0556baad,Snapin discovery:<*>,7
+74dca74c,Discrete snapin load start BlackBerry <*> <*> : <*>,2
+b03dd4a4,Snapin manager: snapin BlackBerry <*> <*> depends on API <*>,2
+c3242c33,Discrete snapin add classpath jar:C:\Program <*>,19
+267fd854,operationComplete(): Tunnel section created from <*> to <*>,1340
+21087b67,Snapin <*> indicates specific onVersionChanged to <*>,7
+876f8655,Start of request: <*> method: <*>,3310
+1682c68c,"BSG config request: tenant=<*>, <*>",106
+d8df4591,Time to complete request in milliseconds: <*>,3310
+509a5b6e,returning HTTP response code <*>,3310
+cb856c7f,Registered snapin status change listener <*>,8
+68b5f413,Received certificate request <*>,247
+f8ba51cb,EID Snapin - <*> true,2
+7a10a9bf,EID Snapin - Tenant <*> ENTERPRISE_IDENTITY_TENANT_SYNC_COMPLETED: true,1
+adaa6e5d,EID Snapin - Registration with EID cloud <*>,2
+1874ffa2,The EID service handler is registered,1
+2959c080,Scheduler job execution begins,488
+628794d3,Time to complete scheduler request in milliseconds: <*>,488
+5356605e,+-EIDProfileController:init,1
+598ac4f2,Discrete snapin load finished,7
+494f6d84,Discrete snapin load start <*> : <*>,3
+fe2a01eb,Snapin manager: snapin <*> depends on API <*>,3
+7530024f,"BSCP config request: tenant=<*>, <*>",32
+741b91da,Snapin context load: found duplicate bean in parent context <*>,71
+10253705,onCreateRouterSuccess(): created a tunnel session <*> with tunnelcreationtime <*> ms,8
+1023c75a,Client Tunnel Details: <*>,7
+139f1d3d,Discrete snapin load start <*> <*> : <*>,2
+b11d8cb0,Snapin manager: snapin <*> <*> depends on API <*>,2
+4db8f3ac,+FeatureEnablerProvider::ini,1
+2cba1e44,-FeatureEnablerProvider::ini,1
+7e13b393,+FeatureEnablerProvider::onFeaturesLoaded,1
+160ed31c,FeatureEnablerProvider::onFeaturesLoaded: enabled FEATURE_ADMIN_USER_ADDITIONAL_ATTRIBUTES,1
+fcb4d820,-FeatureEnablerProvider::onFeaturesLoaded,1
+61d22aed,createProfileSettingEnrty <*>,33
+679cb80e,+EnrolledDeviceService,1
+f59795c0,+DeviceActionHandler,1
+f7c305ff,+ConfigRESTHandler,1
+68ffbf80,+EnrolledDeviceRESTHandler,1
+14f185c7,+UIService,1
+ee86c29a,+UIRESTHandler,1
+374bc193,"SISSnapinFeatureProvider, feature loaded, SIS feature is true.",1
+4b7d4234,"SISSnapinFeatureProvider, set SIS feature to default value again.",1
+6afb8f95,>>>SIS Snapin <*>,8
+9b673bdf,>>>SISSnapinTestController init<<<,1
+76269ce5,<*> initialization succesful,7
+7338214d,BB2FA Snapin - Bb2faCoreController initTokenFileExtensionsConfigurators config path C:/Program Files/BlackBerry/UEM\etc\besngHome\otp\config\,1
+8b83ce3d,BB2FA Snapin - Bb2faCoreController <*> <*> <*> <*>,31
+c0903672,Bb2faConfigController initialization successful,1
+0a459157,Snapin load default classpath,1
+d9511852,"SISSnapinStartedEventListener, get SNAPIN_STARTED_EVENT event, UEM server started.",1
+2087f750,"SISSnapinStartedEventListener, snapin version in UEM is <*>, previous snapin version is 1.0.0",1
+3892aa41,"SISSnapinStartedEventListener, find a new snapin version.",1
+40844131,Initializing the activation email template cache for tenant 1,1
+948caaba,Activation Email Template 'sis.access.granted' is not found,1
+bf5dac48,"SISSnapinEmailTemplateService, no Email Template found with name: sis.access.granted",1
+1343fc1b,"SISSnapinStartedEventListener, update snapin version to <*>",1
+38135d9a,"SISSnapinStartedEventListener, updated snapin version.",1
+ab42844c,channelInactive: called by netty <*> => <*> Tunnel start <*> Tunnel setup complete <*> Tunnel termination <*> Tunnel setup complete duration in <*> Tunnel lifetime in <*> Tunnel connectivity <*> Local Node <*> Remote Node <*> Device Termination <*> Remote <*> <*> <*>,1334
+bbeb95d4,handler not found: <*> <*>,301
+e9cac7f5,RoutedMessageHandler is already null for session <*> not processing message: TcpMessageWrapper <*> <*> <*> <*> <*> <*> <*>,310
+d677d7f0,"GP <*> request: tenant=<*>, <*>",454
+cf810630,"Received BCC config request for tenant=<*>, zuosInstanceGuid=<*>",24
+55fa3b67,"Sending BCC config response: tenant=<*>, zuosInstanceGuid=<*>, configSettingsResponse: <*>",24
+43383b49,"clearAll(): Processed for tenant=<*>, instance=<*>",1
+ac5ed8f6,"GP keystore entry request: tenant=<*>, uosId=UEM:<*>",1
+8bdbf753,routeType is null. This is BlackBerry Proxy Cluster.,354
+dc9bfd75,Clusters are not set in BlackBerry Proxy Cluster. Skip and not include in response.,12
+2965bcbb,processAcks(): ackGuids in request is null/zero-length. Updated 0 ServerActionStatus rows.,13
+6f4026cb,endpointUUID: <*> generated new Working Keys V2. Keys Token updated: <*>,425
+4af2d70c,userDevicePolicies: <*>,492
+53fb02da,policy: <*>,485
+df7da411,[filterPolicySettingsByUserDevice] Called policyRepository.getCopyOfPolicyEntity,535
+773e2657,getKeyInfo OK for endpointUUID: <*>,425
+b4274a5a,Received from Endpoint '<*>' <*>,553
+def8af04,'<*>' Container connected.,400
+649be893,Writing to Endpoint '<*>' <*>,701
+afc8d15a,<*> Container disconnected,395
+9a086e92,com.blackberry.ema is not enabled for dynamics PKI certificate,21
+c464cb6f,<*> Ack received MsgID: <*>,23
+5a2f6bdc,"Checking if DNA Schema needs updating, current date: Wed Jan 29 15:28:38 IST 2020 latest promotion date: Wed Jan 29 15:28:38 IST 2020",30
+f8fd3904,handle RequestKerberosKCDServiceTicket container not connected,2
+0c1a82c7,KRB u= <*> while requesting KRB ServiceTicket for serviceClass= HTTP server= <*> port= 80 serviceName= <*>,10
+0e29ec02,Starting logging settings sync,24
+cb87bd98,Logging settings sync complete,24
+7614aa26,<*> removing previous container session,5
+8186678e,ContainerMgmtSessionHandler.exceptionCaught: <*> exception=,3
+72a01479,container not connected,2
+7409078e,Starting tenant reconciliation for expired grace period,2
+ece99996,Tenant reconciliation for expired grace period finished successfully,2
+aa2777ed,Attempt to trigger immediate SAFETYNET attestation for USER DEVICE with ID = <*> was REJECTED. Reason: 'ATTESTATION_DISABLED',3
+ed50a5ed,"DirectoryGroupSync[1] created sync record, id <*> syncType [USERS_AND_GROUPS]",12
+fa5fb7d8,"DirectoryGroupSync[1] group sync is enabled, creating job to load group members of the group [4] pagewise...",12
+8e700173,DirectoryGroupSync[1] the sync with id <*> is alive,252
+33065bc3,DirectoryGroupSync[1] Going to load directory groups and users pagewise...,132
+26501ffe,"The dn of the group, to look for members, after escaping <*> Groups,DC=ad,DC=boi,DC=gov,DC=il'].",252
+6c7c565c,searching DNs in the range <*> of <*>,252
+e9568246,DirectoryGroupSync[1] going to fetch members of the group <*> pagewise,120
+c97e97a1,"The dn of the group, to look for members, after escaping ['CN=GR-BOI-FaxG-HelpDesk,OU=FaxGroups,OU=Distributions List,OU=AD Groups,DC=ad,DC=boi,DC=gov,DC=il'].",12
+567b10e4,loadDirectoryGroupsUsers finding <*> <*> in directory in [1] batches,24
+5137b42c,"DirectoryGroupSync[1] Done loading all members, dispatching to LoadUsers activity...",12
+924eaa6d,DirectoryGroupSync[1] loading group members from the directory,108
+f091a19f,"DirectoryGroupSync[1] Going to fetch user <*> Users,DC=ad,DC=boi,DC=gov,DC=il] from the directory",38628
+bdb92dc8,DirectoryGroupSync[1] Going to fetch user <*> <*> <*> from the directory,168
+c94234a8,DirectoryGroupSync[1] The count of user objects fetched so far is <*>,108
+4039d2de,DirectoryGroupSync[1] Time taken to load <*> directory users is <*> seconds,96
+0e0bb52b,"DirectoryGroupSync[1] the DN <*> Users,DC=ad,DC=boi,DC=gov,DC=il] did not return as user from the directory, so will not be synced",252
+40a28473,"DirectoryGroupSync[1] Going to fetch user <*> <*> - <*> Users,DC=ad,DC=boi,DC=gov,DC=il] from the directory",96
+b524b908,"DirectoryGroupSync[1] Going to fetch user [CN=yossi shay test,OU=test,OU=AD Users,DC=ad,DC=boi,DC=gov,DC=il] from the directory",48
+0d649d12,Poking device over <*> channel for <*> action: <*>,35
+ae51a14e,DirectoryGroupSync[1] Collating directory data.,12
+7b54ad31,DirectoryGroupSync[1] Collating users in directory linked group.,144
+6b7902ab,DirectoryGroupSync[1] Processing DG <*> <*> users.,204
+448389a0,"DirectoryGroupSync[1] as per the directory, the user <*> external Id:<*>] should associate with the directory linked group with Id <*>",36996
+95013deb,DirectoryGroupSync[1] as per the directory the user <*> external Id:<*>] does not associate with any directory linked group,204
+1e6250ed,DirectoryGroupSync[1] Validating for max changes of 500,12
+2c978ac7,DirectoryGroupSync[1] <*> users detected to be <*> <*> the group <*>,96
+82dec92c,DirectoryGroupSync[1] Number of changes detected for DLG id <*> <*>,60
+f4453d67,DirectoryGroupSync[1] <*> users detected for <*> because <*> is [enabled],24
+580153ba,DirectoryGroupSync[1] Max number of changes exceed limit for DLG id 20. Aborting.,12
+648a20f5,DirectoryGroupSync[1] the number of changes sync is about to perform exceed the threshold specified with the directory instance configuration,12
+434f44a4,DirectoryGroupSync[1] Exception in CollateDirGroupsUsersAndCreateWorkActivity: the number of changes sync is about to perform exceed the threshold specified with the directory instance configuration,12
+8023a913,Directory group sync abort for syncId <*> stateToSet FAILED,12
+1f691ee1,DirectoryGroupSync[1] Aborting the group sync process.,12
+3ad762dc,auth header: <*>,404
+c63deae9,HHH000179: Narrowing proxy to class <*> - this operation breaks ==,18
+366a0fd7,/auth API was called; Updating last login time; <*> <*> tenantExternalId=<*>,6
+a885066f,+AdminLoginEvent::onEvent: event<*>,5
+7a973e0d,-AdminLoginEvent::executeTask: reason: tenant not associated to service event<*>,5
+69a448be,-AdminLoginEvent::onEvent: event<*>,5
+2c8b2236,"SECURITY_AUDIT: <*> isSuccess=true, <*> actorTenant=<*>, hostname=Boi-JP-BBUEM1.ad.boi.gov.il, <*> details=Trusted Channel Protocol=TLS;Identify of <*>",9
+8a4007ea,Setting PICW configuration complete,5
+cff98cb8,Setting dynamic feature: FEATURE_GOOD_PROFILE_COMPLIANCE_EXISTS_AT_RUNTIME value: false,5
+d160793b,BB2FA Snapin - Bb2faCoreController.getBootstrapConfig called,10
+06a90ba6,BB2FA Snapin - Bb2faCoreController isFeatureEnabled Feature <*> <*> value <*>,30
+61b9c4b2,+UIRESTHandler::checkServiceAssociation,13
+33622a0f,+UIRESTHandler::listServices,5
+4df82630,"LicenseModel::getFeatureState <*> not in the cache, returning tenant compliance state true",28
+d0a69672,"UIRESTHandler::checkServiceAssociation, response=<*>],""licenseCompliant"":true,""adminEnabled"":false}",13
+591a0efc,-UIRESTHandler::checkServiceAssociation,13
+3ad5d4bd,"RESTEASY002142: Multiple resource methods match request ""GET /tenant/1/applicationDefinition/isAppReviewRequired"". Selecting one. Matching methods: [public void com.rim.platform.mdm.core.plugin.udui.controller.rest.ApplicationDefinitionController.getApplication(java.lang.Integer,java.lang.Integer,javax.ws.rs.container.AsyncResponse), public void com.rim.platform.mdm.core.plugin.udui.controller.rest.ApplicationDefinitionController.isAppReviewRequired(java.lang.Integer,javax.ws.rs.container.AsyncResponse)]",5
+24121729,+UIService::listServices,5
+4a61f64b,"LicenseModel::getFeatureState <*> not in the cache, returning defaut feature state",20
+5b14c6e3,-UIService::listServices,5
+e8a675f7,"UIRESTHandler::listServices, response=<*>,""features"":[<*>,<*>,<*>,<*>]}],""licenseCompliant"":true,""adminEnabled"":false}",5
+53ee2534,-UIRESTHandler::listServices,5
+0097bc2b,Licensing info retrieved successfully,13
+2d8dc77e,Syncing platform services,13
+2a97ff70,Updating group licensing state: [false],5
+422f1c8a,Setting Org level compliance state,5
+0b3b81c9,Compliance state updated successfully,5
+4026d8a6,+LicensingRetrievalEvent::onEvent: event<*>,5
+aa39e0ed,"SISSnapinLicenseRetrievalEventListener, no SIS license found.",5
+808da741,+LicenseModel::updateLicense,5
+82a3d85d,LicenseModel::updateLicense: No license found for ebbm.blackberry.com,5
+c0b53bee,LicenseModel::updateLicense: Ignoring license event since tenant is not associated with our service,5
+be410b31,-LicenseModel::updateLicense false,5
+31705567,-LicensingRetrievalEvent::onEvent: event<*>,5
+49a411cc,"BcpTenantRegistrationHandler.registerTenantWithBcp(): Before registering with BCP: tenantId=<*>; wasNotPresentInCache=false, registeredWithBcp=true",11
+730ad599,u:'<*>' has 0 certs pending,2
+405655b4,Unrecognized ConfigItem payload element <*> <*> <*>,30
+9002ae40,Building cache for <*> policies for tenant <*>,2
+fdc8399b,"[GeoLocationSettingsDeviceConfig.getGeoLocationSettings] User GUID: <*>, Device GUID: <*>",5
+7ca1ed53,deviceGPSCapability: true,5
+f5e72fc7,deviceAGPSCapability: <*>,5
+96303f80,GeoLocation policy: null,5
+3fdf3dcc,AfW:AfWNotificationPoller pullNotifications kicked off for the tenant [1],2
+92183479,AfW:AfWNotificationPoller Going to pull notifications for the tenant [1],2
+44fed564,AfW: validating the credentials of the AndroidEnterprise client via proxy,1
+12aabcb1,AfW: AndroidEnterprise client to make API calls via proxy,1
+2b2b5575,collapsible gcm 'poke' job: correlationId [<*>] <*> TTL(seconds)[86400] tenantId [<*>] notificationChannel [BDMI] notificationChannelGroupName [] Result: success,9
+f96f7c46,Attempting to poke device over APNs for <*>,6
+bab5bea1,APNS poke payload <*>,6
+01e3478b,"pushAppleMDMNotificationHttp2() - About to Sending poke for tenantId: <*>, channelId: mdm, correlationId: <*>, pushId: <*>",6
+14eb2551,"pushAppleMDMNotificationHttp2() -in sendPoke for tenantId: <*>, channelId: mdm, correlationId: <*>, pushId: <*>",6
+4e7567d7,"createConnection() -. tenant:<*>,",4
+21bb11c9,"channelRead: msg neither a HttpRequest nor a ByteBuf, ignoring.",4
+053f8695,"operationComplete() - iOS EMA notificaion sent to APNS. status:ACCEPTED, rejectionReason:null, tenantId: <*>, channelId: mdm, correlationId: <*>, pushId: <*>",6
+1569bda2,device msg: <*> <*> <*>,7
+83881573,Found iTunes P2E application definition ID: 6,7
+6fec5810,Returned null because filterPolicyByUserDevice return 'false',3
+2e15abb4,BDMI Wallpaper Request is not supported by the device : <*>,2
+550ae668,Could not assign policy to user device or event when signature is invalid; ud id is <*>.,1
+97005fbd,"More than one TaskExecutor bean found within the context, and none is named 'taskExecutor'. Mark one of them as primary or name it 'taskExecutor' (possibly as an alias) in order to use it for async processing: [scimSchedulingServiceAsyncExecutor, asyncExecutor, asyncTenantAttestationSettingsChangeProcessingExecutor]",1
+cf35d544,sendDataToOriginServer: router is null.,2
+732a5ac1,"ICacheRemovalEventHandler.onRemoval() - Removing APNS connection for <*>, connectionHandler:com.rim.platform.mdm.ns.ios.<*>",3
+b401c2a1,Shutting down.,3
+12ab4364,device msg: <*> <*>,1
+aebf84a3,"processMessageQueue(): <*> destroyMessage=true, pending data messages size=1, messageDataNull=true",2
+88cc6bf0,"Application state for bundleId [com.good.gcs.g3] has been updated. State: [[NOTINSTALLED]], Signature: [1]",1
+e63816cf,Getting SSLContext with provider:SunJSSE,3
+f5d19d37,"Attribute value changed; need to send update to EID; <*> isADuser=true, eidEntitlementsFeatureEnabled=true, externalTenantId=<*> attributeName=EmailAddress, <*> <*>",5
+37c62f5c,send request to Dynamics NOC: Method: addorUpdateUser,1
+28c53960,Response received from Dynamics NOC: <*>,1
+d4963a3d,pushUserNewEmailAddressToNoc: Error Status 8 msg: Unable to change an user's email address as it conflicts with another user: eyal.hadad@boi.org.il,1
+01152dc1,"Failed to update email address for user in Dynamics NOC, 4058",1
+22ef4b7c,HHH000010: On release of batch it still contained JDBC statements,1
+2e1304c9,"HHH000315: Exception executing batch [java.sql.BatchUpdateException: Cannot insert duplicate key row in object 'dbo.obj_user' with unique index 'UX_obj_user_email_addr'. The duplicate key value is (1, eyal.hadad@boi.org.il).], SQL: update obj_user set modified=?, email_address=?, userPN=? where id_user=?",1
+a501efb3,"SQL Error: 2601, SQLState: 23000",1
+6eda8afb,"Cannot insert duplicate key row in object 'dbo.obj_user' with unique index 'UX_obj_user_email_addr'. The duplicate key value is (1, eyal.hadad@boi.org.il).",1
+9d2597fa,activity execution failed,1
+391fac89,job exceeded retry count 0 and is marked for quarantine due to: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit,1
+9bfda475,"QuarantineException caught, quarantine data due to org.springframework.orm.jpa.JpaSystemException: Transaction was marked for rollback only; cannot commit; nested exception is org.hibernate.TransactionException: Transaction was marked for rollback only; cannot commit",1
+9b2e029c,"handler not found: proxyServerId=ip-osid, originServerId=helm, localServiceName=ip-osid, <*>",8
+64549d59,"handler not found: proxyServerId=apns-wildcard, originServerId=apns-wildcard, localServiceName=apns-wildcard, instanceName=[wff/p-bes-<*>,apns-wildcard,apns-wildcard>apns-wildcard,14]",1
+5397fe10,Received BSG get config request,1
+1ac6cde0,Creating thread pool for 2 directory configurations.,8
+53e88844,Submitting job for directory instance id <*>,16
+7b3049c5,Directory connection status job complete.,16
+d08da7fe,"Received from Endpoint '<*>' msgJSON='<*>],""devicePlatform"":""Android"",""appNativeBundleVersion"":""12.36.2.156473"",""clientVersion"":""<*>"",""deviceName"":""Android Device"",""deviceOSVersion"":""10"",""appNativeBundleID"":""com.rim.mobilefusion.client"",""deviceSerialNumber"":""ATwlh9ZaoZYo04MW0kCH2yIE78EiGOJp9UnbInPsCtRUAIFz6XeSFOgt2zIgdfyZYb4hzjFy2ZRENTth+JZ+Tg=="",""rom"":""10"",""carrier"":""Pelephone"",""clientType"":""NativeContainer"",""networkSerialNumber"":""MNC:03,MCC:425,"",""clientLocale"":""iw"",""authDelegationSalt"":""ATwlh9ZaoZYo04MW0kCH2yIE78EiGOJp9UnbInPsCtRUAIFz6XeSFOgt2zIgdfyZYb4hzjFy2ZRENTth+JZ+Tg=="",""firmware"":""d2s"",""appNativeDisplayName"":""UEM Client"",""deviceLocale"":""iw_IL"",""trackingID"":""1591604081-OTU2ODUxMjQwNjIxNzE1NTA1MQ==""}}'",1
+061e293e,GDAuthToken validation error ...,1
+8b99b039,HTTP 401 Unauthorized,1
+46091326,[UnseenAppsPeriodicNotificationScheduler] callback called...UnseenAppsPeriodicNotificationScheduler,1
+7bd2961f,retriableCommandService Scheduling the command <*> on the entity <*> to execute on [Mon Jun 08 <*> IDT 2020],3
+1552508a,retriableCommandService Executing the command <*> on the entity <*>,2
+3d959ce0,retriableCommandService Successfully executed the command <*> on the entity <*>,2
+6d82d0a3,[AppsStoreAPNSChannelHandler] sendDirectPoke - sending new app notification [ user device id = <*> channel = 'com.good.gdgma' correlationId = '<*>' ],67
+2a87083a,[AppsStoreAPNSChannelHandler] sendDirectPoke - No Good Access appId found [ user device id = <*> ],43
+615367c9,[AppsStoreSSAMGCMChannelHandler] sendDirectPoke - 'device.cap.notification.gcm.ssam' capability not set for the device id <*> [user device id = <*>,7
+2422d8c5,[AppsStoreSSAMGCMChannelHandler] sendDirectPoke - sending new app GCM notification [ user device id = <*> correlationId = '<*>' ],79
+145b7c78,Initiating licensing pending queue cleanup,1
+326a14e5,License command queue records deleted: 0.,1
+99a7c5cd,Exception on call to DB for licensing pending queue cleanup,1
